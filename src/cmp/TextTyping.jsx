@@ -33,7 +33,7 @@ export function TextTyping({ text, seconds }) {
   }
 
   return (
-    <div>
+    <div className="text">
       {textToDisplay}
     </div>
   );
